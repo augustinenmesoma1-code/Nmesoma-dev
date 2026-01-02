@@ -1,0 +1,81 @@
+.body {
+    background-color: blue;
+}
+.firstnav {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5%;
+    gap: 30px;
+    font-size: larger;
+}
+.about {
+    background-color: blueviolet;
+    height: 30px;
+    width: 70px;
+    border: none;
+    color: #f0e7e7;
+    transition: opacity 1s;
+    box-shadow: 5px 5px 5px blueviolet;
+    vertical-align: 1px;
+
+}
+.about:hover {
+    background-color: red;
+    color: aqua;
+    border-radius: 50px;
+    opacity: 0.1;
+     box-shadow: 5px 5px 5px rgb(223, 226, 43);
+
+}
+.about:active{
+    background-color: black;
+    color: yellow;
+     box-shadow: 5px 5px 5px rgb(43, 226, 226);
+
+}
+
+.tesco_image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tesco {
+    padding-top: 20px;
+}
+.kairo{
+    justify-items: center;
+    font-size: xx-large;
+}
+.kairo2{
+    font-size: larger;
+}
+
+.layer{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 70px;
+
+}
+.columdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr;
+    gap: 20px;
+    height: 250px;
+    font-size: x-large;
+    
+
+}
+
+
+.header {
+    display: flex;
+    height: 15px;
+}
